@@ -1,0 +1,185 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+    }
+
+img, picture, video, canvas, svg {
+    display: block;
+    max-width: 100%;
+    }
+
+* {
+    margin: 0;
+    }
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    }
+
+body{
+    background-color: rgb(236, 209, 249);
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.bar{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3mm;
+    margin-left: 3mm;
+    margin-right: 5mm;
+    top: 0;
+    left: 0;
+    right: 0;
+    position: fixed;
+    z-index: 1;
+}
+
+.logo{
+    max-width: 2cm;
+}
+
+a:link { text-decoration: none; }
+
+
+a:visited { text-decoration: none; }
+
+
+a:hover { text-decoration: none; }
+
+
+a:active { text-decoration: none; }
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 2mm;
+}
+
+.mainpage{
+    margin-right: 5mm;
+    margin-top: 4mm;
+}
+.aboutpage{
+    margin-top: 4mm;
+}
+
+.main{
+    color: black;
+}
+
+a:hover{
+    color:rgb(140, 30, 183);
+}
+.about{
+    color: black;
+}
+
+
+
+.motto{
+    font-size: 175px;
+    text-align: center;
+    margin-left: 3cm;
+    margin-right: 3cm;
+    margin-top: 1cm;
+    font-family: serif;
+}
+
+
+
+.projectIntro{
+    margin-top: 2cm;
+    margin-left: 22mm;
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 5mm;
+}
+.projects{
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-left: 20mm;
+    margin-right: 20mm;
+}
+
+.projectimg{
+    width: 10cm;
+    height: 10cm;
+    filter: grayscale(100%);
+    margin-bottom: 3mm;
+}
+
+.projectimg:hover{
+    filter: grayscale(100%) brightness(70%) sepia(50%) hue-rotate(-100deg) saturate(500%) contrast(1);
+}
+
+.project{
+    text-align: center;
+    margin-bottom: 1cm;
+    margin-left: 2mm;
+    margin-right: 2mm;
+}
+
+.projectTitle{
+    font-weight: bold;
+    color: black;
+}
+
+.projectType{
+    font-style: italic;
+    color: black;
+}
+
+.fullBodyPage{
+    display: flex;
+    margin-top: 30mm;
+    margin-left: 30mm;
+    margin-right: 30mm;
+}
+
+.info{
+    width: 60%;
+    margin-right: 10mm;
+    padding-right: 10mm;
+}
+
+.aboutTitle{
+    font-size: 100px;
+}
+
+.aboutme{
+    font-size: 18px;
+    letter-spacing: 1px;
+    line-height: 30px;
+}
+
+.bottomSection{
+    margin-top: 20mm;
+    margin-left: 30mm;
+    margin-right: 30mm;
+}
+
+.smallTitle{
+    font-weight: bold;
+}
+
+.contactMe{
+    color: black;
+    margin-top: 3mm;
+    display: flex;
+
+}
+
+.contact{
+    color: black;
+    margin-right: 10mm;
+    margin-bottom: 10mm;
+}
+
+.contact:hover{
+    color:rgb(140, 30, 183);
+}
